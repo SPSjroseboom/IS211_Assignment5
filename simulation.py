@@ -9,6 +9,9 @@ import argparse
 from decimal import Decimal
 
 
+file = 'http://s3.amazonaws.com/cuny-is211-spring2015/requests.csv'
+
+
 class Queue(object):
     """
     Defining Queue abstract data type.
